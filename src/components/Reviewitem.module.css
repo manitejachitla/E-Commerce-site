@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.cont
+{
+    box-sizing: border-box;
+    box-shadow: 0 0 2px 2px black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.cont h2
+{
+    padding: 4px;
+    color: darkgreen;
+}
+.cont h1
+{
+    font-size: 20px;
+    padding: 4px;
+    color: #383721;
+}
+.cont h3
+{
+    padding: 4px;
+    font-size: 18px;
+    color: #383721;
+}

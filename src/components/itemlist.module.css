@@ -1,0 +1,50 @@
+.glay
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/*@media only screen and (max-width: 1380px) {*/
+/*    .glay*/
+/*    {*/
+/*        grid-template-columns: 1fr 1fr 1fr 1fr;*/
+
+/*    }*/
+/*}*/
+/*@media only screen and (max-width: 750px) {*/
+/*    .glay*/
+/*    {*/
+/*        grid-template-columns: 1fr 1fr ;*/
+
+/*    }*/
+/*}*/
+/*@media only screen and (max-width: 1800px) {*/
+/*    .glay*/
+/*    {*/
+/*        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
+
+/*    }*/
+/*}*/
+/*@media only screen and (max-width: 1300px) {*/
+/*    .glay*/
+/*    {*/
+/*        grid-template-columns: 1fr 1fr 1fr;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width: 1000px) {*/
+/*    .glay*/
+/*    {*/
+/*        grid-template-columns: 1fr 1fr;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width: 750px) {*/
+/*    .glay*/
+/*    {*/
+/*        grid-template-columns: 1fr;*/
+/*    }*/
+/*}*/
+/*@media only screen and (max-width:400px) {*/
+/*    .glay*/
+/*    {*/
+/*        grid-template-columns: 100%;*/
+/*    }*/
+/*}*/

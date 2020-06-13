@@ -1,0 +1,37 @@
+*
+{
+    padding: 10px;
+    box-sizing: border-box;
+}
+.form
+{
+    /*width: 300px;*/
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 1px 4px black;
+    border-radius: 10px;
+}
+.form button
+{
+    width: 90px;
+    background: #8ec5fc;
+    padding: 6px;
+    margin: 5px  auto;
+    border-radius:10px;
+    cursor: pointer;
+}
+.form input[type="text"],.form input[type="password"],.form select
+{
+    padding: 3px;
+    margin: 10px;
+    border-radius:10px;
+}
+.contone
+{
+    display: flex;
+}

@@ -1,0 +1,80 @@
+*
+{
+    padding: 10px;
+}
+.form,.form2
+{
+    width: 300px;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 1px 4px black;
+    border-radius: 10px;
+}
+.form2
+{
+    align-items: center;
+}
+.container
+{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+.form button
+{
+    width: 90px;
+    background: #8ec5fc;
+    padding: 6px;
+    margin: 5px  auto;
+    border-radius:10px;
+    cursor: pointer;
+}
+.form2 button
+{
+
+    background: #8ec5fc;
+    padding: 6px;
+    margin: 5px  auto;
+    border-radius:10px;
+    cursor: pointer;
+}
+.form input[type="text"],.form input[type="password"],.form select
+{
+    padding: 3px;
+    margin: 10px;
+    border-radius:10px;
+}
+.form input[type="text"]:focus,.form input[type="password"]:focus,.textarea:focus
+{
+    border: 1px solid greenyellow;
+}
+.form h4
+
+{
+   margin: 0 10px;
+
+}
+.textarea
+{
+    margin: 10px;
+    padding: 3px;
+    border-radius:10px;
+
+}
+.signup a
+{
+    font-size: 12px;
+    text-decoration: none;
+}
+.signup a:hover
+{
+    font-size: 13px;
+    color: orangered;
+    cursor: pointer;
+}
